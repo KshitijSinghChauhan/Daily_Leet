@@ -13,6 +13,7 @@
 		10197AB52B105157004DFBC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10197AB32B105157004DFBC1 /* Main.storyboard */; };
 		10197AB72B105158004DFBC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10197AB62B105158004DFBC1 /* Assets.xcassets */; };
 		10197ABA2B105158004DFBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10197AB82B105158004DFBC1 /* LaunchScreen.storyboard */; };
+		10197AC42B1054AA004DFBC1 /* Nov23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10197AC32B1054AA004DFBC1 /* Nov23.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		10197AB62B105158004DFBC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10197AB92B105158004DFBC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10197ABB2B105158004DFBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10197AC32B1054AA004DFBC1 /* Nov23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nov23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		10197AAC2B105157004DFBC1 /* DailyLeet */ = {
 			isa = PBXGroup;
 			children = (
-				10197AAD2B105157004DFBC1 /* AppDelegate.swift */,
-				10197AAF2B105157004DFBC1 /* SceneDelegate.swift */,
+				10197AC22B1053E9004DFBC1 /* Nov2023 */,
+				10197AC12B1053C1004DFBC1 /* Launch */,
 				10197AB12B105157004DFBC1 /* ViewController.swift */,
-				10197AB32B105157004DFBC1 /* Main.storyboard */,
-				10197AB62B105158004DFBC1 /* Assets.xcassets */,
-				10197AB82B105158004DFBC1 /* LaunchScreen.storyboard */,
 				10197ABB2B105158004DFBC1 /* Info.plist */,
 			);
 			path = DailyLeet;
+			sourceTree = "<group>";
+		};
+		10197AC12B1053C1004DFBC1 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				10197AAD2B105157004DFBC1 /* AppDelegate.swift */,
+				10197AAF2B105157004DFBC1 /* SceneDelegate.swift */,
+				10197AB32B105157004DFBC1 /* Main.storyboard */,
+				10197AB62B105158004DFBC1 /* Assets.xcassets */,
+				10197AB82B105158004DFBC1 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		10197AC22B1053E9004DFBC1 /* Nov2023 */ = {
+			isa = PBXGroup;
+			children = (
+				10197AC32B1054AA004DFBC1 /* Nov23.swift */,
+			);
+			path = Nov2023;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			files = (
 				10197AB22B105157004DFBC1 /* ViewController.swift in Sources */,
 				10197AAE2B105157004DFBC1 /* AppDelegate.swift in Sources */,
+				10197AC42B1054AA004DFBC1 /* Nov23.swift in Sources */,
 				10197AB02B105157004DFBC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
