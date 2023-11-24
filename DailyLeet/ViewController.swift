@@ -12,8 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+
+        let abc = MaximumNumberCoinsYouCanGet()
+        print(abc.maxCoins([2,4,5]))
     }
-
-
 }
 

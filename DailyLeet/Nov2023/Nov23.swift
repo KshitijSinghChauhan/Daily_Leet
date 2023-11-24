@@ -16,7 +16,7 @@ class ArithmeticSubarrays {
             // Sort sub array from l and r range.
             let arr = (nums[l[index]...r[index]]).sorted()
             // get Arithemetic mean for current sub array.
-            var diff = arr[1] - arr[0]
+            let diff = arr[1] - arr[0]
             for i in 0..<arr.count - 1 {
                 if arr[i+1] - arr[i] != diff {
                     result.append(false)
