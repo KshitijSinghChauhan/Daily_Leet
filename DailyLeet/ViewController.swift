@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let abc = MaximumNumberCoinsYouCanGet()
-        print(abc.maxCoins([2,4,5]))
+        let abc = SumOfAbsoluteDifferencesInSortedArray()
+        print(abc.getSumAbsoluteDifferences([1,4,6,8,10]))
     }
 }
 
