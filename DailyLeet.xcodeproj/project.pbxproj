@@ -16,6 +16,7 @@
 		10197AC42B1054AA004DFBC1 /* 23Nov23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10197AC32B1054AA004DFBC1 /* 23Nov23.swift */; };
 		10197AC62B1056C7004DFBC1 /* 24Nov23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10197AC52B1056C7004DFBC1 /* 24Nov23.swift */; };
 		103083212B173E1B007153B9 /* 29Nov23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103083202B173E1B007153B9 /* 29Nov23.swift */; };
+		104EEABA2B1BC4C4006739F5 /* 2Dec23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104EEAB92B1BC4C4006739F5 /* 2Dec23.swift */; };
 		10BFE3362B11C83000D9B8A9 /* 25Nov23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BFE3352B11C83000D9B8A9 /* 25Nov23.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		10197AC32B1054AA004DFBC1 /* 23Nov23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23Nov23.swift; sourceTree = "<group>"; };
 		10197AC52B1056C7004DFBC1 /* 24Nov23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24Nov23.swift; sourceTree = "<group>"; };
 		103083202B173E1B007153B9 /* 29Nov23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 29Nov23.swift; sourceTree = "<group>"; };
+		104EEAB92B1BC4C4006739F5 /* 2Dec23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2Dec23.swift; sourceTree = "<group>"; };
 		10BFE3352B11C83000D9B8A9 /* 25Nov23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25Nov23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				10197AC22B1053E9004DFBC1 /* Nov2023 */,
+				104EEAB82B1BC4A2006739F5 /* Dec2023 */,
 				10197AC12B1053C1004DFBC1 /* Launch */,
 				10197AB12B105157004DFBC1 /* ViewController.swift */,
 				10197ABB2B105158004DFBC1 /* Info.plist */,
@@ -93,6 +96,14 @@
 				103083202B173E1B007153B9 /* 29Nov23.swift */,
 			);
 			path = Nov2023;
+			sourceTree = "<group>";
+		};
+		104EEAB82B1BC4A2006739F5 /* Dec2023 */ = {
+			isa = PBXGroup;
+			children = (
+				104EEAB92B1BC4C4006739F5 /* 2Dec23.swift */,
+			);
+			path = Dec2023;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			files = (
 				10197AB22B105157004DFBC1 /* ViewController.swift in Sources */,
 				10197AC62B1056C7004DFBC1 /* 24Nov23.swift in Sources */,
+				104EEABA2B1BC4C4006739F5 /* 2Dec23.swift in Sources */,
 				10BFE3362B11C83000D9B8A9 /* 25Nov23.swift in Sources */,
 				10197AAE2B105157004DFBC1 /* AppDelegate.swift in Sources */,
 				10197AC42B1054AA004DFBC1 /* 23Nov23.swift in Sources */,
