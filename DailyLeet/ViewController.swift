@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let abc = FindWordsFormedByCharacters()
-        print(abc.countCharacters(["cat","bt","hat","tree"], "atach"))
+        let abc = MinimumTimeVisitingAllPoints()
+        print(abc.minTimeToVisitAllPoints([[1,1],[3,4],[-1,0]]))
     }
 }
 
