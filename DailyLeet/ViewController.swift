@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let abc = MinimumTimeVisitingAllPoints()
-        print(abc.minTimeToVisitAllPoints([[1,1],[3,4],[-1,0]]))
+        let abc = Largest3SameDigitNumberInString()
+        print(abc.largestGoodInteger("6777133339"))
     }
 }
 
