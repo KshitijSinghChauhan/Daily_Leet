@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let abc = Largest3SameDigitNumberInString()
-        print(abc.largestGoodInteger("6777133339"))
+        let abc = LargestOddNumberInString()
+        print(abc.largestOddNumber("239537672423884969653287101"))
     }
 }
 
