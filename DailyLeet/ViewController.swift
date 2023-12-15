@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let abc = SpecialPositionsInABinaryMatrix()
-        print(abc.numSpecial([[1,0,0],[0,0,1],[1,0,0]]))
+        let abc = DestinationCity()
+        print(abc.destCity([["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]))
     }
 }
 
