@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let abc = DestinationCity()
-        print(abc.destCity([["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]))
+        let abc = ValidAnagram()
+        print(abc.isAnagram("anagram", "nagaram"))
     }
 }
 
