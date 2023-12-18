@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let abc = ValidAnagram()
-        print(abc.isAnagram("anagram", "nagaram"))
+        let abc = MaximumProductDifferenceBetweenTwoPairs()
+        print(abc.maxProductDifference([1,6,7,5,2,4,10,6,4]))
     }
 }
 

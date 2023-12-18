@@ -32,6 +32,7 @@
 		10ADC4622B21B91E00B34E8E /* 7Dec23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADC4612B21B91E00B34E8E /* 7Dec23.swift */; };
 		10BFE3362B11C83000D9B8A9 /* 25Nov23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BFE3352B11C83000D9B8A9 /* 25Nov23.swift */; };
 		10D4A9772B30B014003F266B /* 17Dec23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D4A9762B30B014003F266B /* 17Dec23.swift */; };
+		10D4A9792B30B6F6003F266B /* 18Dec23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D4A9782B30B6F6003F266B /* 18Dec23.swift */; };
 		10E43BF52B1D07360057F5EA /* 3Dec23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E43BF42B1D07360057F5EA /* 3Dec23.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		10ADC4612B21B91E00B34E8E /* 7Dec23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7Dec23.swift; sourceTree = "<group>"; };
 		10BFE3352B11C83000D9B8A9 /* 25Nov23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25Nov23.swift; sourceTree = "<group>"; };
 		10D4A9762B30B014003F266B /* 17Dec23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17Dec23.swift; sourceTree = "<group>"; };
+		10D4A9782B30B6F6003F266B /* 18Dec23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18Dec23.swift; sourceTree = "<group>"; };
 		10E43BF42B1D07360057F5EA /* 3Dec23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Dec23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 				10130DD62B2CCC930062D111 /* 15Dec23.swift */,
 				10311C382B2DE954002DCD19 /* 16Dec23.swift */,
 				10D4A9762B30B014003F266B /* 17Dec23.swift */,
+				10D4A9782B30B6F6003F266B /* 18Dec23.swift */,
 			);
 			path = Dec2023;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				102289F82B2A3A1100E6532C /* 13Dec2023.swift in Sources */,
 				10500EEE2B28CECF0044299D /* 12Dec23.swift in Sources */,
+				10D4A9792B30B6F6003F266B /* 18Dec23.swift in Sources */,
 				10E43BF52B1D07360057F5EA /* 3Dec23.swift in Sources */,
 				10197AB22B105157004DFBC1 /* ViewController.swift in Sources */,
 				1064926A2B203078000DC956 /* 6Dec23.swift in Sources */,
